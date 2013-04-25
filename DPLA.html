@@ -1,0 +1,21 @@
+<head>
+  <title>DPLA</title>
+  <link rel="stylesheet" href="github-fork-ribbon-css/gh-fork-ribbon.css" />
+</head>
+
+<body>
+<div class="github-fork-ribbon-wrapper right">
+    <div class="github-fork-ribbon">
+        <a href="https://github.com/szweibel/meteor-DPLA">Fork me on GitHub</a>
+    </div>
+</div>
+  {{> DPLASearch }}
+</body>
+
+<template name="DPLASearch">
+  <h1>Cooperative DPLA Search</h1>
+  {{greeting}}
+  <input id="searchInput" class="searchTerm" type="text" />
+  <input type="button" class="search" value="Search" />
+  <div id="results"></div>
+</template>
